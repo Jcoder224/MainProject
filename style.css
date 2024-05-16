@@ -1,0 +1,238 @@
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+#head {
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    background-color: rgba(252, 250, 250, 0.921);
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-main {
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+/* .p {
+    font-size: 10px;
+}*/
+
+.second,
+.third {
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+a {
+    padding: 5px;
+}
+
+a:hover {
+    box-shadow: 0px 0px 5px rgb(8, 124, 187);
+    border-radius: 5px;
+}
+
+.H:hover {
+    font-size: 20px;
+}
+
+.O:hover {
+    font-size: 20px;
+}
+
+.V:hover {
+    font-size: 20px;
+}
+
+.E:hover {
+    font-size: 20px;
+}
+
+.R:hover {
+    font-size: 20px;
+}
+
+#carouselExampleAutoplaying {
+    padding: 50px;
+}
+
+#sociamedia {
+    display: flex;
+    gap: 50px;
+}
+
+
+.main-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button01 {
+    background: linear-gradient(rgb(8, 124, 187), white);
+    border-radius: 8px;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+}
+
+.button01:active {
+    border: 1px solid rgb(8, 124, 187);
+    box-shadow: 0 0 5px rgb(26, 131, 236);
+}
+
+body {
+    background: url(./assets/main-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.parallex-1 {
+    background: url('./assets/background02.jpeg');
+    height: 200px;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+
+}
+
+.parallex-inner {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+#text {
+    font-size: 70px;
+    margin-top: 35px;
+    font-family: "Playfair Display", serif;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#name01 {
+    color: rgba(0, 156, 246, 0.849);
+}
+
+#name02 {
+    color: rgba(2, 13, 53, 0.827);
+    font-weight: bold;
+}
+
+.para {
+    background-color: rgba(254, 254, 254, 0.668);
+    padding: 10px;
+}
+
+.cards {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-text {
+    font-size: 10px;
+}
+
+#body {
+    background-color: rgba(0, 47, 255, 0.351);
+}
+
+.page02 {
+    background-color: rgb(61, 119, 235);
+    text-align: center;
+    justify-content: center;
+    padding: 250px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.chakra {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-size: 30px;
+}
+
+.button {
+    background-color: rgb(0, 98, 255);
+    color: white;
+    text-decoration: none;
+    box-shadow: 7px 5px 3px rgb(0, 0, 0);
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(3, 60, 150);
+    box-shadow: 7px 5px 3px rgb(0, 0, 0);
+}
+
+.page03 {
+    background-color: white;
+}
+
+#headpage {
+    padding-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#parapage {
+    text-align: center;
+    font-family: "open sans condensed,sans-serif";
+    padding-left: 350px;
+    padding-right: 350px;
+    font-weight:100;
+}
+
+#centerpage {
+    font-family: "open sans condensed,sans-serif";
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.partof {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+}
+
+#pic1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+}
+#pic2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+}
+#pic3{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+}
+#pic4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-weight: bold;
+}

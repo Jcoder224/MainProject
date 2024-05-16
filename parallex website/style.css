@@ -1,0 +1,122 @@
+
+.flex-container {
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.flex-container :hover {
+    color: rgb(237, 70, 32);
+
+}
+
+button {
+    padding: 5px;
+    margin: 10px;
+    background: linear-gradient(red, rgb(255, 255, 255));
+    border-radius: 40% 0 40% 0%;
+}
+
+.row {
+    display: flex;
+
+
+}
+
+.image {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRU70pfHfmBszcw6q90dQ5xWVhkaKtPCZrY0z6uo3L2tQ&s');
+}
+
+.column {
+    flex: 50%;
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+}
+
+.img1 {
+    height: 100px;
+    width: 200px;
+}
+
+.box {
+    text-align: center;
+    padding: 7px;
+    margin: 10px;
+    scroll-behavior: smooth;
+
+}
+
+img {
+    height: auto;
+}
+
+body {
+    background: #f2f2f2;
+
+}
+
+h1 {
+    font-size: 120px;
+    text-align: center;
+    color: rgb(222, 218, 218);
+}
+
+.parallex-1 {
+    background: url('https://wallpapers.com/images/hd/earth-up-close-3d-android-phone-0txgx8conj36hqki.jpg');
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.parallex-inner {
+    padding: 5px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #555;
+    text-align: center;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 20px 0 10px;
+
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    text-align: justify;
+    line-height: 30px;
+    margin: 20px 0 10px;
+}
+
+.parallex-2 {
+    background: url('https://w0.peakpx.com/wallpaper/168/539/HD-wallpaper-space-open-space-planets-art-colorful.jpg');
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.parallex-3 {
+    background: url('https://wallpapers.com/images/hd/travel-hd-axhrsecphqby11wk.jpg');
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.parallex-4 {
+    background: url('https://c4.wallpaperflare.com/wallpaper/630/43/768/space-earth-sun-solar-system-wallpaper-preview.jpg');
+    no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
